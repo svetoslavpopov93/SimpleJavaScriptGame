@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>"SAVE THE FARM" The Game!</title>
+    <link href="styles/main-style.css" rel="stylesheet" />
+    <script>
+        var scores = TAFFY();
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="scripts/taffyDB.js"></script>
+</head>
+<body>
+    <h1 id="logo">SAVE THE FARM</h1>
+
+    <div id="main-window">
+        <div id="welcome-box">
+            <div id="start-screen">
+                <p id="welcome-text">
+                    It has been many years since melons declared war on the entire farm. 
+After all other plants fell last hope of salvation is a small squad watermelons. 
+Their military developers invented a weapon of mass destruction that would win the war. 
+Your task is to help the developers to make the system smarther so she would be able to distinguish watermelons from melons. 
+Good luck!
+                </p>
+                <button id="start" class="btn">
+                    Play!
+                </button>
+            </div>
+            <div id="play-screen">
+                <div id="main-box">
+                    <img id="first" class="unknownIMG" src="imgs/unknown.png" />
+                    <img id="second" class="unknownIMG" src="imgs/unknown.png" />
+                    <img id="third" class="unknownIMG" src="imgs/unknown.png" />
+                    <img id="fourth" class="unknownIMG" src="imgs/unknown.png" />
+                </div>
+                <div id="status-box">
+                    <img class="unknownIMG" src="imgs/cantaloupe.jpg" />
+                    <p id="cantStatus" class="status">--</p>
+
+                    <p id="watStatus" class="status">--</p>
+                    <img class="unknownIMG" src="imgs/watermelon.jpg" />
+                </div>
+                <div id="input-box">
+                    <div id="tb-area">
+                        <input type="text" id="firstNumber" class="input" />
+                        <input type="text" id="secondNumber" class="input" />
+                        <input type="text" id="thirdNumber" class="input" />
+                        <input type="text" id="fourthNumber" class="input" />
+                    </div>
+                </div>
+                <button class="btn" id="bam">BAM!</button>
+                <div id="guessCount-box">
+                    <p id="guessCount-title">Current guess:</p>
+                    <p id="guessCount">0</p>
+                </div>
+            </div>
+
+            <div id="win-scrn">
+                <p id="congratulations" class="win-text">
+                    Congratulations!
+                </p>
+
+                <p class="win-text">
+                    You saved the farm!
+                </p>
+
+                <p class="win-text">
+                    To save score please enter your name:
+                </p>
+
+                <div id="userName-input">
+                    <input id="userName" type="text" />
+                    <button id="btn-submit">Submit</button>
+                </div>
+            </div>
+
+            <div id="newGame-screen">
+                <p id="bestScoreTitle">
+                    BEST SCORE:
+                </p>
+
+                <p id="bestScore">
+                </p>
+
+                <button id="btn-newGame">
+                    new game
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <h3 id="bottom-logo">©2013 Svetoslav Popov. All rights reserved.</h3>
+    <script src="scripts/backhand-logic.js"></script>
+</body>
+</html>

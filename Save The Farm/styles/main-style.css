@@ -1,0 +1,224 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #8DB614;
+    height: 100%;
+    width: 100%;
+    color: #b6ff00;
+    font-size: 55px;
+    font-family: 'Buxton Sketch';
+}
+
+
+    body #logo {
+        font-family: Forte;
+        font-size: 95px;
+        color: #AEFFB0;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    body #main-window {
+        width: 80%;
+        height: 90%;
+        margin-left: 10%;
+        margin-bottom: 2%;
+        background: #98bf21;
+        border-radius: 18px;
+    }
+
+#start-screen {
+    width: 1079px;
+    height: 579px;
+    position: absolute;
+    border-radius: 18px;
+}
+
+#welcome-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body #bottom-logo {
+    font-family: Consolas;
+    font-size: 15px;
+    color: #AEFFB0;
+    text-align: center;
+    margin-left: 36%;
+    position: absolute;
+}
+
+.btn {
+    background-color: #B6FF00;
+    color: #308d08;
+    width: 130px;
+    height: 65px;
+    border-radius: 10px;
+    font-family: 'Buxton Sketch';
+    font-size: 45px;
+    text-align: center;
+    margin-left: 42.5%;
+}
+
+    .btn:hover {
+        background-color: #308d08;
+        color: #B6FF00;
+    }
+
+#play-screen {
+    background-color: #9BC816;
+    width: 1079px;
+    height: 579px;
+    position: absolute;
+    display: none;
+    border-radius: 18px;
+}
+
+#main-box {
+    width: 60%;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+.unknownIMG {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+#status-box {
+    width: 50%;
+    padding-left: 25%;
+    padding-top: 30px;
+    height: 200px;
+}
+
+.status {
+    display: inline-block;
+}
+
+#watStatus {
+    margin-left: 100px;
+}
+
+#input-box {
+    padding-left: 41%;
+    height: 65px;
+    overflow: hidden;
+    display: block;
+}
+
+.input {
+    width: 25px;
+    height: 40px;
+    background-color: #b6ff00;
+    color: #308d08;
+    font-family: 'Buxton Sketch';
+    font-size: 40px;
+}
+
+#input-box #tb-area {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 60px;
+}
+
+#guessCount-box {
+    height: 70px;
+    display: inline-block;
+}
+
+    #guessCount-box #guessCount-title {
+        font-size: 25px;
+        margin: 0;
+        width: 150px;
+        margin-left: 320px;
+    }
+
+    #guessCount-box #guessCount {
+        font-size: 45px;
+        margin: 0;
+        width: 150px;
+        margin-left: 320px;
+    }
+
+#win-scrn {
+    background-color: #9BC816;
+    width: 1079px;
+    height: 579px;
+    position: absolute;
+    border-radius: 18px;
+    display: none;
+}
+
+    #win-scrn .win-text {
+        font-size: 30px;
+        color: #AEFFB0;
+        text-align: center;
+    }
+
+    #win-scrn #congratulations {
+        font-size: 100px;
+        color: #AEFFB0;
+        text-align: center;
+    }
+
+    #win-scrn #userName-input #btn-submit {
+        background-color: #B6FF00;
+        color: #308d08;
+        width: 110px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: 'Buxton Sketch';
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #win-scrn #userName-input #userName {
+        width: 200px;
+        width: 250px;
+        background-color: #b6ff00;
+        color: #308d08;
+        font-family: 'Buxton Sketch';
+        font-size: 40px;
+        margin-left: 350px;
+    }
+
+#newGame-screen {
+    background-color: #9BC816;
+    width: 1079px;
+    height: 579px;
+    position: absolute;
+    border-radius: 18px;
+    display: none;
+}
+
+    #newGame-screen #bestScoreTitle {
+        font-size: 100px;
+        margin: 100px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #newGame-screen #bestScore {
+        text-align: center;
+    }
+
+    #newGame-screen #btn-newGame {
+        background-color: #B6FF00;
+        color: #308d08;
+        width: 220px;
+        height: 55px;
+        border-radius: 10px;
+        font-family: 'Buxton Sketch';
+        font-size: 30px;
+        text-align: center;
+        margin-left: 429px;
+        margin-top: 50px;
+    }
